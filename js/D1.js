@@ -44,19 +44,53 @@ console.log("Esercizio 1.02.04 -->", quartaStringa, typeof quartaStringa)
 console.log("Esercizio 1.02.05 -->", quintaStringa, typeof quintaStringa)
 // Il datatype string indica un carattere, parola o una frase
 
-let primoValoreBooleano = true
-let secondoValoreBooleano = 3 < 4
-let terzoValoreBooleano = 3 >= 4
-let quartoValoreBooleano = console.log(
+let primoValoreBooleano = true // Può dare come risultato solo due valori: true, false
+let secondoValoreBooleano = 3 < 4 // come operatori ci sono minore < e maggiore >
+let terzoValoreBooleano = 3 >= 4 // minore uguale <= e maggiore >=
+let quartoValoreBooleano = 3 === 3 // uguaglianza sia di valore che di tipo di stringa
+let quintoValoreBooleano = 3 !== 3 // disuguaglianza sia di valore che di tipo di stringa
+let sestoValoreBooleano = 3 == "3" // uguaglianza (==) o disuguaglianza (!=) solo di valore ma non per forza di tipo di stringa (preferibile non usare)
+let settimoValoreBooleano = !true // equivale al not e da come risultato l'opposto
+console.log(
   "Esercizio 1.03.01 -->",
   primoValoreBooleano,
   typeof primoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.02 -->",
+  secondoValoreBooleano,
+  typeof secondoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.03 -->",
+  terzoValoreBooleano,
+  typeof terzoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.04 -->",
+  quartoValoreBooleano,
+  typeof quartoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.05 -->",
+  quintoValoreBooleano,
+  typeof quintoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.06 -->",
+  sestoValoreBooleano,
+  typeof sestoValoreBooleano,
+)
+console.log(
+  "Esercizio 1.03.06 -->",
+  settimoValoreBooleano,
+  typeof settimoValoreBooleano,
 )
 // Il datatype da un valore vero o falso
 
 let indefinito
 console.log("Esercizio 1.04.01 -->", indefinito, typeof indefinito)
-// Il datatype è una variabile non deinita
+// Il datatype è una variabile non definita
 
 let nullo = null
 console.log("Esercizio 1.05.01 -->", nullo, typeof nullo)
