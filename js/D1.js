@@ -31,6 +31,7 @@ console.log("Esercizio 1.01.06 -->", sestoNumero, typeof sestoNumero)
 console.log("Esercizio 1.01.07 -->", settimoNumero, typeof settimoNumero)
 console.log("Esercizio 1.01.08 -->", ottavoNumero, typeof ottavoNumero)
 // Il datatype number indica un valore numerico
+
 let primaStringa = "carattere,parola o frase"
 let secondaStringa = "10+3<24-15" // se racchiuse tra parentisi anche le operzioni vengono lette come stringa
 let terzaStringa = "" //anche nessun carattere può essere letto come stringa
@@ -41,17 +42,25 @@ console.log("Esercizio 1.02.02 -->", secondaStringa, typeof secondaStringa)
 console.log("Esercizio 1.02.03 -->", terzaStringa, typeof terzaStringa)
 console.log("Esercizio 1.02.04 -->", quartaStringa, typeof quartaStringa)
 console.log("Esercizio 1.02.05 -->", quintaStringa, typeof quintaStringa)
-
 // Il datatype string indica un carattere, parola o una frase
-let valoreBooleano = true
-console.log("Esercizio 1.03.01 -->", valoreBooleano, typeof valoreBooleano)
-// Il datatype
+
+let primoValoreBooleano = true
+let secondoValoreBooleano = 3 < 4
+let terzoValoreBooleano = 3 >= 4
+let quartoValoreBooleano = console.log(
+  "Esercizio 1.03.01 -->",
+  primoValoreBooleano,
+  typeof primoValoreBooleano,
+)
+// Il datatype da un valore vero o falso
+
 let indefinito
 console.log("Esercizio 1.04.01 -->", indefinito, typeof indefinito)
-// Il datatype
+// Il datatype è una variabile non deinita
+
 let nullo = null
 console.log("Esercizio 1.05.01 -->", nullo, typeof nullo)
-// Il datatype
+// Il datatype è una varriabile volutamente di nessun valore
 
 /* ESERCIZIO 2
  Crea una variable chiamata "myName" e assegna ad essa il tuo nome, sotto forma di stringa.
